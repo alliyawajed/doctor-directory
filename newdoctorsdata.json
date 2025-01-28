@@ -1,5 +1,4 @@
-{
-  "Cardiologist": [
+[
     {
       "name": "Dr. Aditi Verma",
       "specialty": "Cardiology",
@@ -47,9 +46,7 @@
       "contact": "321-654-9870",
       "gender": "Female",
       "image":"https://github.com/alliyawajed/doctor-directory/blob/main/cardio6.jpg?raw=true"
-    }
-  ],
-  "Dentist": [
+    },
     {
       "name": "Dr. Anjali Kapoor",
       "specialty": "Dentistry",
@@ -97,9 +94,7 @@
       "contact": "900-876-3210",
       "gender": "Female",
       "image":"https://github.com/alliyawajed/doctor-directory/blob/main/dentist6.jpeg?raw=true"
-    }
-  ],
-  "Neurologist": [
+    },
     {
       "name": "Dr. Kavita Singh",
       "specialty": "Neurology",
@@ -147,9 +142,7 @@
       "contact": "908-654-3210",
       "gender": "Male",
       "image":"https://github.com/alliyawajed/doctor-directory/blob/main/neuro6.jpeg?raw=true"
-    }
-  ],
-  "Orthopedic": [
+    },
     {
       "name": "Dr. Sunita Kapoor",
       "specialty": "Orthopedics",
@@ -196,9 +189,7 @@
       "contact": "876-543-2109",
       "gender": "Female",
       "image":"https://github.com/alliyawajed/doctor-directory/blob/main/ortho6.jpeg?raw=true"
-    }
-  ],
-  "Gynecologist": [
+    },
     {
       "name": "Dr. Sarah Sharma",
       "specialty": "Gynecology",
@@ -246,9 +237,7 @@
       "contact": "321-654-9870",
       "gender": "Female",
       "image": "https://github.com/alliyawajed/doctor-directory/blob/main/gynecologist6.jpg?raw=true"
-    }
-  ],
-  "Pediatrician": [
+    },
     {
       "name": "Dr. Vansh Singh",
       "specialty": "Pediatrics",
@@ -298,4 +287,3 @@
       "image":"https://github.com/alliyawajed/doctor-directory/blob/main/piadetrician6.jpg?raw=true"
     }
   ]
-}
