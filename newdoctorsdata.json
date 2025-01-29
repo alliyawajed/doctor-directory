@@ -13,7 +13,7 @@
       "area": "Mumbai",
       "contact": "987-654-3210",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/cardio2.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/cardio2.jpeg"
     },
     {
       "name": "Dr. Aditya Patel",
@@ -21,7 +21,7 @@
       "area": "Delhi",
       "contact": "555-123-4567",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/cardio3.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/cardio3.jpg"
     },
     {
       "name": "Dr. Ritu Mehta",
@@ -29,7 +29,7 @@
       "area": "Bangalore",
       "contact": "234-567-8901",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/cardio4.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/cardio4.jpg"
     },
     {
       "name": "Dr. Rajesh Kumar",
@@ -37,7 +37,7 @@
       "area": "Chennai",
       "contact": "909-876-5432",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/cardio5.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/cardio5.jpg"
     },
     {
       "name": "Dr. Amiti Yadav",
@@ -45,7 +45,7 @@
       "area": "Hyderabad",
       "contact": "321-654-9870",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/cardio6.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/cardio6.jpg"
     },
     {
       "name": "Dr. Anjali Kapoor",
@@ -53,7 +53,7 @@
       "area": "Pune",
       "contact": "312-454-6790",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/dentist1.jpeg?raw=true"
+      "image":"hhttps://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/dentist.jpeg"
     },
     {
       "name": "Dr. Sunita Deshmukh",
@@ -61,7 +61,7 @@
       "area": "Mumbai",
       "contact": "486-752-3491",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/dentist2.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/dentist2.jpeg"
     },
     {
       "name": "Dr. Umakant Joshi",
@@ -69,7 +69,7 @@
       "area": "Delhi",
       "contact": "654-789-1234",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/dentist3.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/dentist3.jpeg"
     },
     {
       "name": "Dr. Rohit Agarwal",
@@ -77,7 +77,7 @@
       "area": "Bangalore",
       "contact": "476-123-6980",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/dentist4.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/dentist4.jpeg"
     },
     {
       "name": "Dr. Arvind Mehta",
@@ -85,7 +85,7 @@
       "area": "Chennai",
       "contact": "563-890-5671",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/dentist5.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/dentist5.jpeg"
     },
     {
       "name": "Dr. Rohini Yadav",
@@ -93,7 +93,7 @@
       "area": "Hyderabad",
       "contact": "900-876-3210",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/dentist6.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/dentist6.jpeg"
     },
     {
       "name": "Dr. Kavita Singh",
@@ -101,7 +101,7 @@
       "area": "Pune",
       "contact": "623-455-7789",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/neuro1.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/neuro1.jpeg"
     },
     {
       "name": "Dr. Rupali Gupta",
@@ -109,7 +109,7 @@
       "area": "Mumbai",
       "contact": "489-567-1234",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/neuro2.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/neuro2.jpeg"
     },
     {
       "name": "Dr. Rajab Sharma",
@@ -117,7 +117,7 @@
       "area": "Delhi",
       "contact": "987-321-6540",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/neuro3.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/neuro3.jpeg"
     },
     {
       "name": "Dr. Neelam Bhatt",
@@ -125,7 +125,7 @@
       "area": "Bangalore",
       "contact": "674-234-5678",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/neuro4.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/neuro4.jpeg"
     },
     {
       "name": "Dr. Arun Yadav",
@@ -133,7 +133,7 @@
       "area": "Chennai",
       "contact": "789-123-4567",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/neuro5.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/neuro5.jpeg"
     },
     {
       "name": "Dr. Vikram Singh",
@@ -141,14 +141,15 @@
       "area": "Hyderabad",
       "contact": "908-654-3210",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/neuro6.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/neuro6.jpeg"
     },
     {
       "name": "Dr. Sunita Kapoor",
       "specialty": "Orthopedics",
       "area": "Pune",
       "contact": "321-654-9876",
-      "gender": "Female"
+      "gender": "Female",
+      "image": "https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/ortho1.jpeg"
     },
     {
       "name": "Dr. Ayush Rao",
@@ -156,7 +157,7 @@
       "area": "Mumbai",
       "contact": "675-432-1098",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/ortho1.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/ortho2.jpeg"
     },
     {
       "name": "Dr. Mohit Patel",
@@ -164,7 +165,7 @@
       "area": "Delhi",
       "contact": "809-654-3210",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/ortho2.jpeg?raw=true"
+      "image": "https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/ortho3.jpeg"
     },
     {
       "name": "Dr. Rahul Deshmukh",
@@ -172,7 +173,7 @@
       "area": "Bangalore",
       "contact": "763-234-6789",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/ortho3.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/ortho4.jpeg"
     },
     {
       "name": "Dr. Suhani Gupta",
@@ -180,7 +181,7 @@
       "area": "Chennai",
       "contact": "763-431-9876",
       "gender": "Female",
-      "image": "https://github.com/alliyawajed/doctor-directory/blob/main/ortho5.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/ortho5.jpeg"
     },
     {
       "name": "Dr. Viks Reddy",
@@ -188,7 +189,7 @@
       "area": "Hyderabad",
       "contact": "876-543-2109",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/ortho6.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/ortho6.jpeg"
     },
     {
       "name": "Dr. Sarah Sharma",
@@ -196,7 +197,7 @@
       "area": "Pune",
       "contact": "123-456-7890",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/Gynecologist1.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/Gynecologist1.jpg"
     },
     {
       "name": "Dr. Priya Verma",
@@ -204,7 +205,7 @@
       "area": "Mumbai",
       "contact": "987-654-3210",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/Gynecologist2.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/Gynecologist2.jpg"
     },
     {
       "name": "Dr. Neha Mehta",
@@ -212,7 +213,7 @@
       "area": "Delhi",
       "contact": "555-123-4567",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/Gynecologist3.jpeg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/Gynecologist3.jpeg"
     },
     {
       "name": "Dr. Anita Joshi",
@@ -220,7 +221,7 @@
       "area": "Bangalore",
       "contact": "234-567-8901",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/gnecologist4.jpg?raw=true"
+      "image":""
     },
     {
       "name": "Dr. Rakesh Kumar",
@@ -228,7 +229,7 @@
       "area": "Chennai",
       "contact": "909-876-5432",
       "gender": "Male",
-      "image": "https://github.com/alliyawajed/doctor-directory/blob/main/gynecologist5.jpeg?raw=true"
+      "image": "https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/gynecologist5.jpeg"
     },
     {
       "name": "Dr. Amiti Pathak",
@@ -236,7 +237,7 @@
       "area": "Hyderabad",
       "contact": "321-654-9870",
       "gender": "Female",
-      "image": "https://github.com/alliyawajed/doctor-directory/blob/main/gynecologist6.jpg?raw=true"
+      "image": "https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/gynecologist6.jpg"
     },
     {
       "name": "Dr. Vansh Singh",
@@ -244,7 +245,7 @@
       "area": "Pune",
       "contact": "465-789-3210",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/piadetrician1.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/piadetrician1.jpg"
     },
     {
       "name": "Dr. Vansham Mehta",
@@ -252,7 +253,7 @@
       "area": "Mumbai",
       "contact": "235-876-5432",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/piadetrician2.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/piadetrician2.jpg"
     },
     {
       "name": "Dr. Vaibhav Verma",
@@ -260,7 +261,7 @@
       "area": "Delhi",
       "contact": "876-234-6789",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/piadetrician3.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/piadetrician3.jpg"
     },
     {
       "name": "Dr. Renul Sharma",
@@ -268,7 +269,7 @@
       "area": "Bangalore",
       "contact": "459-765-1234",
       "gender": "Male",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/piadetrician4.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/piadetrician4.jpg"
     },
     {
       "name": "Dr. Bhoomi Gupta",
@@ -276,7 +277,7 @@
       "area": "Chennai",
       "contact": "540-876-4321",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/piadetrician5.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/piadetrician5.jpg"
     },
     {
       "name": "Dr. Surbhi Yadav",
@@ -284,6 +285,6 @@
       "area": "Hyderabad",
       "contact": "678-789-2345",
       "gender": "Female",
-      "image":"https://github.com/alliyawajed/doctor-directory/blob/main/piadetrician6.jpg?raw=true"
+      "image":"https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/piadetrician6.jpg"
     }
   ]
