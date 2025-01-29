@@ -5,7 +5,7 @@
       "area": "Pune",
       "contact": "123-456-7890",
       "gender": "Female",
-      "image": "https://github.com/alliyawajed/doctor-directory/blob/main/cardio1.jpg?raw=true"
+      "image": "https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/cardio1.jpg"
     },
     {
       "name": "Dr. Rajan Sharma",
