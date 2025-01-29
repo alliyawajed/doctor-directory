@@ -11,78 +11,87 @@ const doctorsContainer = document.querySelector("#doctor-container");
 fetch(API_ENDPOINT)
   .then(response => response.json())
   .then(data => {
-    // Loop through the data and create a doctor card for each item
-    data.forEach(doctor => {
-      // Clone the template to create a new instance of the doctor card
-      const doctorCard = doctorTemplate.content.cloneNode(true);
+    // Check if the data is an array
+    if (Array.isArray(data)) {
+      data.forEach(doctor => {
+        // Clone the template to create a new instance of the doctor card
+        const doctorCard = doctorTemplate.content.cloneNode(true);
 
-      // Fix "speciality" -> "specialty"
-      doctorCard.querySelector(".Doctors").classList.add(doctor.specialty);
-      doctorCard.querySelector(".doctor-name").textContent = doctor.name;
-      doctorCard.querySelector(".doctor-speciality").textContent = doctor.specialty;
-      doctorCard.querySelector(".doctor-experience").textContent = doctor.experience;
-      doctorCard.querySelector(".doctor-location").textContent = doctor.location;
+        // Check if specialty exists before adding it as a class
+        if (doctor.specialty) {
+          doctorCard.querySelector(".Doctors").classList.add(doctor.specialty);
+        } else {
+          console.error(`No specialty provided for doctor: ${doctor.name}`);
+        }
 
-      // Remove the phone field entirely
-      const doctorPhone = doctorCard.querySelector(".doctor-phone");
-      if (doctorPhone) {
-        doctorPhone.style.display = 'none'; // Hide the phone link
-      }
+        // Assign doctor information to the card
+        doctorCard.querySelector(".doctor-name").textContent = doctor.name || "Name not available";
+        doctorCard.querySelector(".doctor-speciality").textContent = doctor.specialty || "Specialty not available";
+        doctorCard.querySelector(".doctor-experience").textContent = doctor.experience || "Experience not available";
+        doctorCard.querySelector(".doctor-location").textContent = doctor.area || "Location not available";
 
-      // Set the image source, prevent undefined errors
-      const doctorImage = doctorCard.querySelector(".doctor-image");
-      doctorImage.src = doctor.image ? doctor.image : "default-image.jpg"; // Use default if missing
-      doctorImage.alt = `Photo of Dr. ${doctor.name}`;
+        // Handle phone field - remove it if not needed
+        const doctorPhone = doctorCard.querySelector(".doctor-phone");
+        if (doctorPhone) {
+          doctorPhone.style.display = 'none';
+        }
 
-      // Add the doctor card to the container
-      doctorsContainer.appendChild(doctorCard);
-    });
+        // Set the image source, check if it exists
+        const doctorImage = doctorCard.querySelector(".doctor-image");
+        doctorImage.src = doctor.image ? doctor.image : "https://raw.githubusercontent.com/alliyawajed/doctor-search/main/img/defaultimage.jpg";
+        doctorImage.alt = `Photo of Dr. ${doctor.name}`;
+
+        // Add the doctor card to the container
+        doctorsContainer.appendChild(doctorCard);
+      });
+    } else {
+      console.error("Invalid data format. Expected an array.");
+    }
   })
   .catch(error => {
     console.error("Error fetching doctors data:", error);
   });
 
-// Search Functionality
-const specialitySearchInput = document.querySelector(".speciality-search");
-const areaSearchInput = document.querySelector(".area-search");
-const noResultFound = document.getElementById("no-result-found");
+  // Search Functionality
+  const specialitySearchInput = document.querySelector(".speciality-search");
+  const areaSearchInput = document.querySelector(".area-search");
+  const noResultFound = document.getElementById("no-result-found");
 
-let specialDoctors = []; // Initialize empty array
+  let specialDoctors = []; // Initialize empty array
 
-specialitySearchInput.addEventListener("input", e => {
-  const doctors = document.querySelectorAll(".Doctors");
-  const value = e.target.value.trim().toLowerCase();
+  specialitySearchInput.addEventListener("input", e => {
+    const doctors = document.querySelectorAll(".Doctors");
+    const value = e.target.value.trim().toLowerCase();
 
-  doctors.forEach(doctor => {
-    if (doctor.classList.contains(value)) {
-      doctor.classList.add("visible");
-    } else {
-      doctor.classList.remove("visible");
-    }
+    doctors.forEach(doctor => {
+      if (doctor.classList.contains(value)) {
+        doctor.classList.add("visible");
+      } else {
+        doctor.classList.remove("visible");
+      }
+    });
+
+    specialDoctors = document.querySelectorAll(".visible");
   });
 
-  specialDoctors = document.querySelectorAll(".visible");
-});
+  areaSearchInput.addEventListener("input", e => {
+    const value = e.target.value.trim().toLowerCase();
+    let noResult = true;
 
-areaSearchInput.addEventListener("input", e => {
-  const value = e.target.value.trim().toLowerCase();
-  let noResult = true;
+    // Loop through the specialDoctors (which are filtered by specialty)
+    specialDoctors.forEach(doctor => {
+      const doctorArea = doctor.querySelector(".doctor-location").textContent.trim().toLowerCase();
+      if (doctorArea.includes(value)) {
+        doctor.classList.add("visible");
+        noResult = false;
+      } else {
+        doctor.classList.remove("visible");
+      }
+    });
 
-  specialDoctors.forEach(specialDoctor => {
-    const areaNameElement = specialDoctor.querySelector(".area-name");
-    const areaName = areaNameElement ? areaNameElement.textContent.toLowerCase() : "";
-
-    if (areaName.includes(value)) {
-      specialDoctor.classList.add("visible");
-      noResult = false;
+    if (noResult) {
+      noResultFound.style.display = "block"; // Show "No results found" message
     } else {
-      specialDoctor.classList.remove("visible");
+      noResultFound.style.display = "none"; // Hide message
     }
   });
-
-  if (noResult) {
-    noResultFound.classList.add("visible");
-  } else {
-    noResultFound.classList.remove("visible");
-  }
-});
